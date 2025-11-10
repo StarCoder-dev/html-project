@@ -20,6 +20,11 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# Build configuration
+env:
+  # Path to the source directory
+  SOURCE_DIR: .
+
 jobs:
   # Single deploy job since we're just deploying
   deploy:
